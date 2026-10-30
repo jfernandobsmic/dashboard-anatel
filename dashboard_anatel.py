@@ -128,7 +128,7 @@ PFp = PF[PF.ano.between(*f_anos)]
 QF = filtra(Q, servico=f_serv, marca=f_marca)
 CF = filtra(C, servico=f_serv, uf=f_uf)
 
-st.title("📡 Reclamações Anatel")
+st.image('assets/logo_anatel.jpg')
 st.caption(f"Dataset de solicitações registradas no Anatel Consumidor, {ANO_MIN}–{ANO_MAX} "
            f"(últimos dados: {MESES[ULT_MES - 1]}/{ANO_MAX}). Fonte: Anatel · SRC/RCTS.")
 
